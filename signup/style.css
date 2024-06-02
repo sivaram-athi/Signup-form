@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header{
+    margin: 40px;
+    color: lightblue;
+}
+
+main{
+    border: 1px solid blue;
+    margin: 30px;
+    padding: 60px;
+}
+
+h1{
+    color:white;
+}
+
+.input{
+    width:100%;
+    padding: 20px;
+    margin-top: 10px;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.radio{
+    margin-top: 10px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.submit{
+    color: black;
+    margin-top: 40px;
+    padding: 15px;
+    width: 150px;
+    background-color: white;
+}
