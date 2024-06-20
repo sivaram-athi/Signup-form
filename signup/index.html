@@ -12,30 +12,29 @@
 </head>
 
 <body>
-    <header>
-        <h2>Signup</h2>
-    </header>
+    <header></header>
     <main>
         <h1>Signup</h1>
-        <form method="post">
-            <input class="input" type="text" name="name" placeholder="Full Name">
-            <input class="input" type="email" name="email" placeholder="Email">
-            <input class="input" type="password" name="password" placeholder="Password">
-            <input class="input" type="password" name="cnfrm_password" placeholder="Confirm Password">
-            <input class="input" type="date" name="date" placeholder="DD/MM/YYYY">
-            <div class="radio">
-                <label for="admin">
-                    <input type="radio" name="admin"  value="Student" style="color: white;"> Student
-                    <input type="radio" name="admin" value="Employee" style="color: white;margin-left: 20px;"> Employee
-                </label>
+        <form action="" method="post">
+            <input type="text" class="input" placeholder="Full Name" required="">
+            <input type="email" class="input" placeholder="Email" required="">
+            <input type="Password" class="input" minlength="8" placeholder="Password" required="">
+            <input type="text" class="input" minlength="8" placeholder="Confirm Password" required="">
+            <input type="date" class="input" placeholder="MM/DD/YYYY" required="">
+            <div class="radioContainer">
+                <input type="radio" name="work" id="Student" value="Student" required="">
+                <label for="Student">Student</label>
+                <input type="radio" name="work" id="Employee" value="Employee" required="">
+                <label for="Employee">Employee</label>
             </div>
-            <input type="checkbox" name="checkbox"> <span style="color: white;padding-left: 10px;">I agree to all the Terms and conditions </span>
-
-            <footer>
-                <input type="submit" value="SignUp" class="submit">
-            </footer>
+            <div class="checkbox">
+                <input type="checkbox" id="check" required="">
+                <label for="check">I agree to all the Terms and conditions</label>
+            </div>
+            <button class="submitBtn" type="submit">Signup</button>
         </form>
     </main>
+    <footer></footer>
 </body>
 
 </html>
